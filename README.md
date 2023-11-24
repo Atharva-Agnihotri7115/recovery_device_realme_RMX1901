@@ -23,8 +23,8 @@ Finally execute these:
 
 ```
 . build/envsetup.sh
-lunch twrp_RMX1901-eng
-mka recoveryimage
+lunch omni_RMX1901-eng
+mka pbrp
 ```
 
 To test it:
