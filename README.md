@@ -11,20 +11,15 @@ Works:
 
 First checkout manifest :
 
-```
-repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
-repo sync -c
-```
-
-Then clone the current device tree onto device/realme/RMX1901
+Clone the current device tree onto device/realme/RMX1901
 
 
-Finally execute these:
+Execute these to start build :
 
 ```
 . build/envsetup.sh
 lunch omni_RMX1901-eng
-mka pbrp
+mka recoveryimage
 ```
 
 To test it:
